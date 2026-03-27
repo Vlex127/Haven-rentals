@@ -37,8 +37,8 @@ export default function Navbar() {
 
                 {/* Desktop Links */}
                 <div className="hidden md:flex items-center gap-8">
-                    <Link href="/browse" className="text-sm font-medium hover:text-indigo-600 transition-colors">Browse</Link>
-                    <Link href="/list" className="text-sm font-medium hover:text-indigo-600 transition-colors">List your property</Link>
+                    <Link href="/properties" className="text-sm font-medium hover:text-indigo-600 transition-colors">Browse Properties</Link>
+                    <Link href="/dashboard/landlord" className="text-sm font-medium hover:text-indigo-600 transition-colors">Landlord Dashboard</Link>
                     <Link href="/how-it-works" className="text-sm font-medium hover:text-indigo-600 transition-colors">How it works</Link>
                     <div className="h-4 w-px bg-zinc-200 dark:bg-zinc-800 mx-2" />
                     <Link href="/login" className="text-sm font-medium">Log in</Link>
@@ -69,8 +69,8 @@ export default function Navbar() {
                         exit={{ opacity: 0, y: -20 }}
                         className="absolute top-full left-0 right-0 bg-white dark:bg-black border-b border-zinc-200 dark:border-zinc-800 p-6 flex flex-col gap-6 md:hidden shadow-xl"
                     >
-                        <Link href="/browse" className="text-lg font-medium">Browse</Link>
-                        <Link href="/list" className="text-lg font-medium">List property</Link>
+                        <Link href="/properties" className="text-lg font-medium">Browse Properties</Link>
+                        <Link href="/dashboard/landlord" className="text-lg font-medium">Landlord Dashboard</Link>
                         <Link href="/how-it-works" className="text-lg font-medium">How it works</Link>
                         <div className="h-px w-full bg-zinc-100 dark:bg-zinc-900" />
                         <div className="flex flex-col gap-4">
